@@ -72,7 +72,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭─「 ${conn.getName(conn.user.jid)} x DHAMZ BOT 」
+╭─「 *NdaaBotz* 」
 │
 │• Nama : *%name*
 │• Exp : *%exp XP*
@@ -84,7 +84,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │• Online : *%uptime*
 │• Total User : *%totalreg nomor*
 │• GitHub : *PRIVATE*
-│• Nomor Owner : *wa.me/085294959195*
+│• Nomor Owner : *wa.me/6288239928939*
 │
 ╰────
 
@@ -97,8 +97,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │• Spam=BLOK/BAN
 ╰────
 
-╭─「 Join Group 」
-│https://chat.whatsapp.com/DjcHH6a2Zpy2by4V2LSjzm
+╭─「 Github? 」
+│NdaaXD
 ╰────
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
